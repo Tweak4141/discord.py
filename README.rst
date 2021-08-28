@@ -16,7 +16,8 @@ A modern, easy to use, feature-rich, and async ready API wrapper for Discord wri
 
 About this fork
 ---------------
-As we know, the discord.py wrapper has been discontinued by rapptz for a number of reasons, which you can find `here <https://gist.github.com/Rapptz/4a2f62751b9600a31a0d3c78100287f1>`__.\
+As we know, the discord.py wrapper has been discontinued by rapptz for a number of reasons, which you can find `here <https://gist.github.com/Rapptz/4a2f62751b9600a31a0d3c78100287f1>`__.
+
 But we at Mecha Karen love this amazing wrapper, so we decided to continue it. Keeping it both up to date with other libraries and the discord API providing rich features for all!
 
 Key Features
