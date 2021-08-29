@@ -1,4 +1,4 @@
-discord.py
+Discord.py
 ==========
 
 .. image:: https://discord.com/api/guilds/740523643980873789/embed.png
@@ -16,7 +16,7 @@ A modern, easy to use, feature-rich, and async ready API wrapper for Discord wri
 
 About this fork
 ---------------
-As we know, the discord.py wrapper has been discontinued by rapptz for a number of reasons, which you can find `here <https://gist.github.com/Rapptz/4a2f62751b9600a31a0d3c78100287f1>`__.
+As we know, the discord.py wrapper has been discontinued by ``Rapptz`` for a number of reasons, which you can find `here <https://gist.github.com/Rapptz/4a2f62751b9600a31a0d3c78100287f1>`__.
 
 But we at Mecha Karen love this amazing wrapper, so we decided to continue it. Keeping it both up to date with other libraries and the discord API providing rich features for all!
 
@@ -32,32 +32,33 @@ Installing
 
 **Python 3.8 or higher is required**
 
-To install the library without full voice support, you can just run the following command:
+This fork will not be uploaded to PyPi for the time being.
 
 .. code:: sh
 
     # Linux/macOS
-    python3 -m pip install -U discord.py
+    python3 -m pip install -U git+https://github.com/Mecha-Karen/discord.py/
 
     # Windows
-    py -3 -m pip install -U discord.py
+    py -3 -m pip install -U git+https://github.com/Mecha-Karen/discord.py/
 
 Otherwise to get voice support you should run the following command:
 
 .. code:: sh
 
     # Linux/macOS
-    python3 -m pip install -U "discord.py[voice]"
+    python3 -m pip install -U git+https://github.com/Mecha-Karen/discord.py#egg=voice
 
     # Windows
-    py -3 -m pip install -U discord.py[voice]
+    py -3 -m pip install -U git+https://github.com/Mecha-Karen/discord.py#egg=voice
 
 
-To install the development version, do the following:
+To install the development version, do the following:<br/>
+This section will become useful once we push this fork to PyPi
 
 .. code:: sh
 
-    $ git clone https://github.com/Rapptz/discord.py
+    $ git clone https://github.com/Mecha-Karen/discord.py
     $ cd discord.py
     $ python3 -m pip install -U .[voice]
 
