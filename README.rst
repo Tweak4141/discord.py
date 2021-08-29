@@ -55,6 +55,7 @@ Otherwise to get voice support you should run the following command:
 
 
 To install the development version, do the following:
+
 This section will become useful once we push this fork to PyPi
 
 .. code:: sh
