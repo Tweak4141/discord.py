@@ -139,6 +139,7 @@ class BaseUser(_UserTag):
             'avatar': self._avatar,
             'discriminator': self.discriminator,
             'bot': self.bot,
+            'badges': self._public_flags
         }
 
     @property
