@@ -54,7 +54,7 @@ Otherwise to get voice support you should run the following command:
     py -3 -m pip install -U git+https://github.com/Mecha-Karen/discord.py#egg=voice
 
 
-To install the development version, do the following:<br/>
+To install the development version, do the following:
 This section will become useful once we push this fork to PyPi
 
 .. code:: sh
