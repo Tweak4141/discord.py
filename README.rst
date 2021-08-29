@@ -5,7 +5,7 @@ Discord.py
    :target: https://discord.gg/Q5mFhUM
    :alt: Discord server invite
 
-.. comment::
+..
    .. image:: https://img.shields.io/pypi/v/discord.py.svg
       :target: https://pypi.python.org/pypi/discord.py
       :alt: PyPI version info
